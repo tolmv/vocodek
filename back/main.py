@@ -187,6 +187,7 @@ After you have talked through the entire structure presented above you should fo
 1. Create a professional job description
 2. describe all steps of the hiring process and the criteria that candidates will be screened against before moving on to the next step.
 `;""",
+model_name = "gpt-4o-mini",
     )),
   synthesizer_thunk=STREAM_ELEMENTS_SYNTHESIZER_THUNK,
   logger=logger,

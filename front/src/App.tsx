@@ -7,7 +7,7 @@ import { useState } from 'react';
 import { BiMicrophoneOff, BiMicrophone } from "react-icons/bi";
 
 export default function App() {
-  const [backendUrl, setBackendUrl] = useState("");
+  const [backendUrl, setBackendUrl] = useState("ws://localhost:3000/conversation");
   const config: SelfHostedConversationConfig = {
     backendUrl,
     audioDeviceConfig: {},
