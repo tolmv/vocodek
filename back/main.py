@@ -189,7 +189,7 @@ After you have talked through the entire structure presented above you should fo
 `;""",
 model_name = "gpt-4o-mini",
     )),
-  synthesizer_thunk=STREAM_ELEMENTS_SYNTHESIZER_THUNK,
+  synthesizer_thunk=ELEVEN_LABS_SYNTHESIZER_THUNK,
   logger=logger,
 )
 
